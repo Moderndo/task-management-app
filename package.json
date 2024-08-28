@@ -1,22 +1,16 @@
 {
-  "name": "manaa",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "build": "echo \"Build step executed\"",
-    "lint": "eslint ."
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
   },
-  "dependencies": {
-    "express": "^4.18.2"
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
   },
-  "devDependencies": {
-    "mocha": "^10.0.0",
-    "chai": "^4.3.4",
-    "eslint": "^8.0.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+  }
 }
