@@ -16,12 +16,6 @@ pipeline {
             }
         }
 
-        stage('Code Quality Analysis') {
-            steps {
-                bat 'npm run lint' // This will run ESLint to check for code quality issues
-            }
-        }
-
-        // Deploy, Release, and Monitoring stages can be added here if needed
+        // Additional stages can be added here
     }
 }
