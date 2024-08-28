@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha",
     "build": "echo \"Build step executed\"",
-    "lint": "eslint ." // Ensure there's a comma before this line and no trailing commas after the last line
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.18.2"
@@ -13,7 +13,7 @@
   "devDependencies": {
     "mocha": "^10.0.0",
     "chai": "^4.3.4",
-    "eslint": "^8.0.0" // Ensure there are no trailing commas here
+    "eslint": "^8.0.0"
   },
   "keywords": [],
   "author": "",
