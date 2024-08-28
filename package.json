@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha", // This will run Mocha tests
+    "test": "mocha",
     "build": "echo \"Build step executed\""
   },
   "dependencies": {
