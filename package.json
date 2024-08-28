@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha", // Runs Mocha tests in the test directory
     "build": "echo \"Build step executed\""
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0", // Mocha is added as a development dependency
+    "chai": "^4.3.4" // Optional: Chai for assertions (common with Mocha)
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": ""
 }
-
